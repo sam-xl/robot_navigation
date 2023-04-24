@@ -40,7 +40,7 @@
 #include <string>
 #include <vector>
 
-const double EPSILON = 1E-5;
+const double EPSILON = 0.2;//1E-5;
 
 PLUGINLIB_EXPORT_CLASS(dwb_critics::RotateToGoalCritic, dwb_local_planner::TrajectoryCritic)
 
